@@ -13,6 +13,11 @@ public class Player {
 	  mShotsBoard = new Board[width][height];
   }
 
-  public void doMovement(int x, int y) {
+  public void doMovement(int x, int y, IA mIA) {
+  }
+  
+  public boolean setAttackFromIA(int x, int y)
+  {
+	  //Llamar setShotToBoard de BoardGeneratory y retornar true si hubo un hit
   }
 }

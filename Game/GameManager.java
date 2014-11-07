@@ -1,8 +1,9 @@
 package Game;
 
-public class GameManager {
+import Components.*;
 
+public class GameManager {
+	
   public void processGame() {
-	  //2585
   }
 }
